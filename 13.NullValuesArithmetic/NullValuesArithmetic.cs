@@ -11,6 +11,11 @@ class NullValuesArithmetic
         Console.WriteLine("Null value: " + nullableInteger);
         Console.WriteLine("Null value: " + floatNumber);
 
+        nullableInteger += 7;
+        floatNumber += 4.5;
+        Console.WriteLine("Number + null value: " + nullableInteger);
+        Console.WriteLine("Number + null value: " + floatNumber);
+
         nullableInteger = 7;
         floatNumber = 4.5;
         Console.WriteLine("Number value: " + nullableInteger);
