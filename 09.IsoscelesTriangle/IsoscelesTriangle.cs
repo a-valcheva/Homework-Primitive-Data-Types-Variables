@@ -17,7 +17,7 @@ class IsoscelesTriangle
         //If you don't want to do that put the next line in a comment.
         Console.OutputEncoding = Encoding.UTF8;
         char copyRight = '\u00A9';
-        Console.WriteLine("   {0}\n  {0} {0}\n {0}   {0}\n{0} {0} {0} {0}", copyRight);
+        Console.WriteLine("{0,4}\n{0,3}{0,2}\n{0,2}{0,4}\n{0}{0,2}{0,2}{0,2}", copyRight);
     }
 }
 

@@ -6,8 +6,10 @@ class UnicodeValue
     //the Windows Calculator to find the hexadecimal representation of 72. The output should be “H”.
     static void Main(string[] args)
     {
+        int code = 72;
+        Console.WriteLine("The hexadecimal representation of code 72 is: {0:X}", code);
         char symbol = '\u0048';
-        Console.WriteLine(symbol);
+        Console.WriteLine("The symbol is: {0}", symbol);
     }
 }
 

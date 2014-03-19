@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 class PrintASCIITable
 {
@@ -8,7 +9,10 @@ class PrintASCIITable
     //for-loops (learn in Internet how).
     static void Main(string[] args)
     {
-        for (int i = 0; i <= 127; i++)
+        //IMPORTANT Check your console font - if it's raster you may need to change it to Consolas with appropriate size or 
+        //Lucida Console!
+        Console.OutputEncoding = Encoding.UTF8;
+        for (int i = 0; i <= 255; i++)
         {
             char symbol = (char)i;
             Console.WriteLine("{0}: {1}", i, symbol);
